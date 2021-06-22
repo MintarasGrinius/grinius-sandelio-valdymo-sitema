@@ -9,12 +9,15 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import lt2021.sandelis.services.inventorius.GetInventroiusResponse;
+import lt2021.sandelis.services.inventorius.InventoriusDAO;
 
 @Service
 public class KlientasService {
 
 	@Autowired
 	private KlientasDAO klientasDAO;
+	@Autowired
+	private InventoriusDAO inventoriusDAO;
 
 	// create
 	@Transactional
@@ -38,6 +41,7 @@ public class KlientasService {
 	// delete
 	@Transactional
 	public void deleteKlientas(long id) {
+		inventoriusDAO.deleteAll(klientasDAO.getOne(id).getInventorius());
 		klientasDAO.deleteById(id);
 	}
 
