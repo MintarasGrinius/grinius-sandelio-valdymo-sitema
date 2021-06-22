@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ponaskikis-spring/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/ponaskikis-spring/static/js/main.34c90fce.chunk.js",
-    "main.js.map": "/ponaskikis-spring/static/js/main.34c90fce.chunk.js.map",
-    "runtime-main.js": "/ponaskikis-spring/static/js/runtime-main.63ae9849.js",
-    "runtime-main.js.map": "/ponaskikis-spring/static/js/runtime-main.63ae9849.js.map",
-    "static/css/2.ae9f1eb3.chunk.css": "/ponaskikis-spring/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.86f3a85f.chunk.js": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js",
-    "static/js/2.86f3a85f.chunk.js.map": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js.map",
-    "static/js/3.56826a48.chunk.js": "/ponaskikis-spring/static/js/3.56826a48.chunk.js",
-    "static/js/3.56826a48.chunk.js.map": "/ponaskikis-spring/static/js/3.56826a48.chunk.js.map",
-    "index.html": "/ponaskikis-spring/index.html",
-    "static/css/2.ae9f1eb3.chunk.css.map": "/ponaskikis-spring/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/ponaskikis-spring/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.86f3a85f.chunk.js.LICENSE.txt": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js.LICENSE.txt"
+    "main.css": "/mintaras-spring/static/css/main.e57a9179.chunk.css",
+    "main.js": "/mintaras-spring/static/js/main.99f45cd1.chunk.js",
+    "main.js.map": "/mintaras-spring/static/js/main.99f45cd1.chunk.js.map",
+    "runtime-main.js": "/mintaras-spring/static/js/runtime-main.fae1e5ab.js",
+    "runtime-main.js.map": "/mintaras-spring/static/js/runtime-main.fae1e5ab.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/mintaras-spring/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.93d73eb5.chunk.js": "/mintaras-spring/static/js/2.93d73eb5.chunk.js",
+    "static/js/2.93d73eb5.chunk.js.map": "/mintaras-spring/static/js/2.93d73eb5.chunk.js.map",
+    "static/js/3.f9280bfc.chunk.js": "/mintaras-spring/static/js/3.f9280bfc.chunk.js",
+    "static/js/3.f9280bfc.chunk.js.map": "/mintaras-spring/static/js/3.f9280bfc.chunk.js.map",
+    "index.html": "/mintaras-spring/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/mintaras-spring/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.e57a9179.chunk.css.map": "/mintaras-spring/static/css/main.e57a9179.chunk.css.map",
+    "static/js/2.93d73eb5.chunk.js.LICENSE.txt": "/mintaras-spring/static/js/2.93d73eb5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.63ae9849.js",
+    "static/js/runtime-main.fae1e5ab.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.86f3a85f.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.34c90fce.chunk.js"
+    "static/js/2.93d73eb5.chunk.js",
+    "static/css/main.e57a9179.chunk.css",
+    "static/js/main.99f45cd1.chunk.js"
   ]
 }
