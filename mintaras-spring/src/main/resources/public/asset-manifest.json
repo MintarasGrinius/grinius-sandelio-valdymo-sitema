@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ponaskikis-spring/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/ponaskikis-spring/static/js/main.34c90fce.chunk.js",
+    "main.js.map": "/ponaskikis-spring/static/js/main.34c90fce.chunk.js.map",
+    "runtime-main.js": "/ponaskikis-spring/static/js/runtime-main.63ae9849.js",
+    "runtime-main.js.map": "/ponaskikis-spring/static/js/runtime-main.63ae9849.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/ponaskikis-spring/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.86f3a85f.chunk.js": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js",
+    "static/js/2.86f3a85f.chunk.js.map": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js.map",
+    "static/js/3.56826a48.chunk.js": "/ponaskikis-spring/static/js/3.56826a48.chunk.js",
+    "static/js/3.56826a48.chunk.js.map": "/ponaskikis-spring/static/js/3.56826a48.chunk.js.map",
+    "index.html": "/ponaskikis-spring/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/ponaskikis-spring/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/ponaskikis-spring/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.86f3a85f.chunk.js.LICENSE.txt": "/ponaskikis-spring/static/js/2.86f3a85f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63ae9849.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.86f3a85f.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.34c90fce.chunk.js"
+  ]
+}
