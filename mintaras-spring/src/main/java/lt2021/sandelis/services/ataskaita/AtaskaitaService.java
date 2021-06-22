@@ -38,7 +38,7 @@ public class AtaskaitaService {
 		List<Klientas> klientai = klientasDAO.findAll();
 		klientai.sort((Klientas obj1, Klientas obj2) -> compare(obj1, obj2));
 
-		return klientai.subList(0, klientai.size() > 5 ? 4 : klientai.size()).stream()
+		return klientai.subList(0, klientai.size() > 5 ? 5 : klientai.size()).stream()
 				.map(k -> new KlientasResponse(k.getId(), k.getVardas(), k.getPavarde(), k.getGimimoData(),
 						k.getTipas(),
 						k.getInventorius().stream()
@@ -52,7 +52,7 @@ public class AtaskaitaService {
 	public List<KlientasResponse> get5KlientaiBendruDidžiausiuRegistruotuInventoriausskaiciumi() {
 		List<Klientas> klientai = klientasDAO.findAll();
 		klientai.sort((Klientas obj1, Klientas obj2) -> obj2.getInventorius().size() - obj1.getInventorius().size());
-		return klientai.subList(0, klientai.size() > 5 ? 4 : klientai.size()).stream()
+		return klientai.subList(0, klientai.size() > 5 ? 5 : klientai.size()).stream()
 				.map(k -> new KlientasResponse(k.getId(), k.getVardas(), k.getPavarde(), k.getGimimoData(),
 						k.getTipas(),
 						k.getInventorius().stream()
