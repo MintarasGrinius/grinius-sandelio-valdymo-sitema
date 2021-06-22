@@ -23,7 +23,7 @@ public class Inventorius {
 	private String pavadinimas;
 
 	@Column
-	private String svoris;
+	private double svoris;
 
 	@Column
 	private String talpinimoSektorius;
@@ -39,7 +39,7 @@ public class Inventorius {
 		super();
 	}
 
-	public Inventorius(String pavadinimas, String svoris, String talpinimoSektorius, Date data, Klientas klientas) {
+	public Inventorius(String pavadinimas, double svoris, String talpinimoSektorius, Date data, Klientas klientas) {
 		super();
 		this.pavadinimas = pavadinimas;
 		this.svoris = svoris;
@@ -64,11 +64,11 @@ public class Inventorius {
 		this.pavadinimas = pavadinimas;
 	}
 
-	public String getSvoris() {
+	public double getSvoris() {
 		return svoris;
 	}
 
-	public void setSvoris(String svoris) {
+	public void setSvoris(double svoris) {
 		this.svoris = svoris;
 	}
 

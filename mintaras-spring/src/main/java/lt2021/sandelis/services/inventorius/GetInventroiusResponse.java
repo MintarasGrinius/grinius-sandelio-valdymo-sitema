@@ -5,7 +5,7 @@ import java.util.Date;
 public class GetInventroiusResponse {
 
 	private String pavadinimas;
-	private String svoris;
+	private double svoris;
 	private String talpinimoSektorius;
 	private Date data;
 
@@ -13,7 +13,7 @@ public class GetInventroiusResponse {
 		super();
 	}
 
-	public GetInventroiusResponse(String pavadinimas, String svoris, String talpinimoSektorius, Date data) {
+	public GetInventroiusResponse(String pavadinimas, double svoris, String talpinimoSektorius, Date data) {
 		super();
 		this.pavadinimas = pavadinimas;
 		this.svoris = svoris;
@@ -29,11 +29,11 @@ public class GetInventroiusResponse {
 		this.pavadinimas = pavadinimas;
 	}
 
-	public String getSvoris() {
+	public double getSvoris() {
 		return svoris;
 	}
 
-	public void setSvoris(String svoris) {
+	public void setSvoris(double svoris) {
 		this.svoris = svoris;
 	}
 

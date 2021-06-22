@@ -5,12 +5,12 @@ import java.util.Date;
 public class CreateRequest {
 
 	private String pavadinimas;
-	private String svoris;
+	private double svoris;
 	private String talpinimoSektorius;
 	private Date data;
 	private long klientasId;
 
-	public CreateRequest(String pavadinimas, String svoris, String talpinimoSektorius, Date data, long klientasId) {
+	public CreateRequest(String pavadinimas, double svoris, String talpinimoSektorius, Date data, long klientasId) {
 		super();
 		this.pavadinimas = pavadinimas;
 		this.svoris = svoris;
@@ -31,11 +31,11 @@ public class CreateRequest {
 		this.pavadinimas = pavadinimas;
 	}
 
-	public String getSvoris() {
+	public double getSvoris() {
 		return svoris;
 	}
 
-	public void setSvoris(String svoris) {
+	public void setSvoris(double svoris) {
 		this.svoris = svoris;
 	}
 
