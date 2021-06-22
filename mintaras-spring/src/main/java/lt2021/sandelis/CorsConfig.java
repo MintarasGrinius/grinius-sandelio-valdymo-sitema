@@ -1,4 +1,4 @@
-package lt2021.sventes;
+package lt2021.sandelis;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

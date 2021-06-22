@@ -1,4 +1,4 @@
-package lt2021.sventes;
+package lt2021.sandelis;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

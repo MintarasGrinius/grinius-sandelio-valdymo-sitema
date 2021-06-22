@@ -1,4 +1,4 @@
-package lt2021.sventes;
+package lt2021.sandelis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
